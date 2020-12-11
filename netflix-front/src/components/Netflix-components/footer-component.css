@@ -1,0 +1,27 @@
+.footer {
+  background-color: #2e2e2e;
+}
+
+.link {
+  padding: 20px;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+  color: white;
+  text-decoration: none;
+}.sub-links footer {
+  color: white;
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  text-decoration: underline;
+}

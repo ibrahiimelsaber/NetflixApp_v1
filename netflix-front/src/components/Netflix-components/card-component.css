@@ -1,0 +1,36 @@
+.card span {
+  color: yellowgreen;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.card {
+  border: none;
+}
+.card input {
+  position: absolute;
+  height: 40px;
+  width: 110px;
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  top: 40%;
+  left: 30%;
+}
+.card:hover input {
+  opacity: 1;
+  transition: 1s;
+}
+.card input:hover {
+  background-color: rgb(102, 97, 97);
+  transition: 0.5s;
+}
+
+.ratingImage {
+  height: 100px;
+  /* width: 400px; */
+}
+
